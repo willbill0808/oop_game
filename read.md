@@ -4,6 +4,8 @@
 ## pokemon like 
 rougelike
 
+pokemon level diktates stats and strength
+trainer level diktates number of pokemon in part up to 6
 
 klasser: 
 * pokemon: subklasser: ildtype, vanntype, gresstype, normaltype
