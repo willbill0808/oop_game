@@ -8,7 +8,7 @@ pokemon level diktates stats and strength
 trainer level diktates number of pokemon in part up to 6
 
 klasser: 
-* pokemon: subklasser: ildtype, vanntype, gresstype, normaltype
+* pokemon: ildtype, vanntype, gresstype, normaltype
 * pokeball: subklasser: typeball, greatball, masterball, normalball
 * enemyTrainer: subklasser: spesialtyType, gymLeader
 
@@ -16,7 +16,7 @@ klasser:
 * simple game loop
 * fullstendig documentasjon
 
-## Game Lopp
+## Game Loop
 1. Spiller gir navnet sitt 
 2. spiller velger start pokemon
 3. Spiller:
