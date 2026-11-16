@@ -1,7 +1,8 @@
 
-pokemon_data = {{
+Pokemon_data = {
+    "squirtle":{
         "PokeId": 1,
-        "type": ["water"],
+        "element": ["water"],
         "species": "squirtle",
         "base_stats": {
             "speed": 3,
@@ -10,9 +11,9 @@ pokemon_data = {{
         },
         "other": "starter"
     },
-    {
+    "charmander":{
         "PokeId": 2,
-        "type": "fire",
+        "element": "fire",
         "species": ["charmander"],
         "base_stats": {
             "speed": 1,
@@ -21,9 +22,9 @@ pokemon_data = {{
         },
         "other": "starter"
     },
-    {
+    "bulbasaur":{
         "PokeId": 3,
-        "type": ["nature"],
+        "element": ["nature"],
         "species": "bulbasaur",
         "base_stats": {
             "speed": 2,
@@ -31,16 +32,5 @@ pokemon_data = {{
             "defense": 3
         },
         "other": "starter"
-    },
-    {
-        "PokeId": 4,
-        "type": ["water"],
-        "species": "magikarp",
-        "base_stats": {
-            "speed": 2,
-            "attack": 1,
-            "defense": 3
-        },
-        "other": "no"
     },
 }
