@@ -23,6 +23,7 @@ for mon in pokemon:
     pokeID = mon[0]
     pokeName = mon[1]
     print(f"Option {pokeID} is {pokeName}")
+    
 starter_pokemon = input(f"What is your choice, pick using the numbers 1-{len(pokemon)}\n(1-{len(pokemon)}): ")
 
 

@@ -19,7 +19,7 @@ pokemon_list = {{
     {
         "PokeId": 3,
         "type": "nature",
-        "species": "bulbasaur",
+        "speciesz": "bulbasaur",
         "speed": 2,
         "attack": 1,
         "defense": 3
