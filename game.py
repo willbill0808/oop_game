@@ -1,3 +1,4 @@
+import random
 import pokemon_data as pd
 import trainer 
 
@@ -20,9 +21,17 @@ def genFight(player):
         slower = playerMon
     while enemyMon.stats["hp"] >= 0 and playerMon.stats["hp"] >= 0:
         print(f"\n{faster.name} used the move {faster.moves[0]}")
-        slower.stats["hp"] = slower.stats["hp"] - 10
-        print(f"{slower.name} used the move {slower.moves[0]}")
-        faster.stats["hp"] = faster.stats["hp"] - 10
+        damage = random.randint(5,15)
+        slower.stats["hp"] = slower.stats["hp"] - damage
+        print(f"it did {damage} points of damage")
+
+        if slower.stats["hp"] <= 0:
+            break 
+
+        damage = random.randint(5,15)
+        print(f"\n{slower.name} used the move {slower.moves[0]}")
+        faster.stats["hp"] = faster.stats["hp"] - damage
+        print(f"it did {damage} points of damage")
 
         print(f"\n {playerMon.name} has {playerMon.stats["hp"]} hp")
     

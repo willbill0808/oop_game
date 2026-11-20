@@ -1,4 +1,4 @@
-# One move per pokemon, all power 10, so type matchups decide fights.
+
 MOVES = {
     "water gun":  {"element": "water",  "power": 10},
     "bubble":     {"element": "water",  "power": 30},
