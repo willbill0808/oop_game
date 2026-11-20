@@ -44,9 +44,9 @@ def main(player):
 player_name = input("What is your name\n: ")
 print(f"Your name is {player_name}! \nYour options for starter pokemon are:")
 print("""
-Option 1 is water-type
-Option 2 is fire-type
-Option 3 is nature-type
+Option 1 is water-type squirtle
+Option 2 is fire-type charmander
+Option 3 is nature-type bulbasaur
 """)
 
 starter_pokemon = int(input(f"What is your choice, pick using the numbers 1-3\n(1-3): "))
