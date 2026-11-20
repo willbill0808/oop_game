@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36">
+  <diagram id="929967ad-93f9-6ef4-fab6-5d389245f69c" name="Page-1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" style=";html=1;" />
+        <mxCell id="1" parent="0" style=";html=1;" />
+        <mxCell id="2vwa2LuWFZJzByNxTexM-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="pokemon" vertex="1">
+          <mxGeometry height="30" width="120" x="1012" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="2vwa2LuWFZJzByNxTexM-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="id: int&lt;div&gt;type: str/int&lt;/div&gt;&lt;div&gt;stats:dict[int&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;personality: str/int&lt;/div&gt;&lt;div&gt;ability: str/int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="1012" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="2vwa2LuWFZJzByNxTexM-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="trainer" vertex="1">
+          <mxGeometry height="30" width="120" x="792" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="2vwa2LuWFZJzByNxTexM-24" edge="1" parent="1" source="2vwa2LuWFZJzByNxTexM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="2vwa2LuWFZJzByNxTexM-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vwa2LuWFZJzByNxTexM-27" edge="1" parent="1" source="2vwa2LuWFZJzByNxTexM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="2vwa2LuWFZJzByNxTexM-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vwa2LuWFZJzByNxTexM-28" edge="1" parent="1" source="2vwa2LuWFZJzByNxTexM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="2vwa2LuWFZJzByNxTexM-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vwa2LuWFZJzByNxTexM-29" edge="1" parent="1" source="2vwa2LuWFZJzByNxTexM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="2vwa2LuWFZJzByNxTexM-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vwa2LuWFZJzByNxTexM-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="792" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="2vwa2LuWFZJzByNxTexM-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="player" vertex="1">
+          <mxGeometry height="30" width="140" x="622" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="3Xt7BoFTHAEc3TVimibK-6" edge="1" parent="1" source="2vwa2LuWFZJzByNxTexM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;exitX=1.009;exitY=0.416;exitDx=0;exitDy=0;exitPerimeter=0;" target="2vwa2LuWFZJzByNxTexM-41" value="">
+          <mxGeometry relative="1" x="0.1999" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="325" />
+            </Array>
+            <mxPoint x="930" y="400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2vwa2LuWFZJzByNxTexM-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="name:str&lt;div&gt;pokeballs:dict[int]&lt;/div&gt;&lt;div&gt;pokedollars:int&lt;/div&gt;&lt;div&gt;pokemon:list[pokemon]&lt;/div&gt;&lt;div&gt;level: int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="140" x="622" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="2vwa2LuWFZJzByNxTexM-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="genTrainer" vertex="1">
+          <mxGeometry height="30" width="140" x="782" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="2vwa2LuWFZJzByNxTexM-30" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="gymLeader" vertex="1">
+          <mxGeometry height="30" width="140" x="782" y="678" as="geometry" />
+        </mxCell>
+        <mxCell id="3Xt7BoFTHAEc3TVimibK-7" edge="1" parent="1" source="8hqm6LuVyeu4EQ2ZhqcQ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="2vwa2LuWFZJzByNxTexM-30" value="">
+          <mxGeometry relative="1" x="0.4348" as="geometry">
+            <mxPoint x="852" y="650" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2vwa2LuWFZJzByNxTexM-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;id: int&lt;/div&gt;genName: str&lt;div&gt;level: int&lt;/div&gt;&lt;div&gt;pokemon:list[pokemon]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="140" x="782" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="2vwa2LuWFZJzByNxTexM-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;level:int&lt;/div&gt;&lt;div&gt;spesiality:str/int&lt;/div&gt;&lt;div&gt;pokemon:list[pokemon]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="140" x="782" y="708" as="geometry" />
+        </mxCell>
+        <mxCell id="2vwa2LuWFZJzByNxTexM-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="show_stats()&lt;div&gt;show_pokemon()&lt;/div&gt;&lt;div&gt;heal_pokemon()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="792" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="2vwa2LuWFZJzByNxTexM-41" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="rival" vertex="1">
+          <mxGeometry height="30" width="140" x="950" y="678" as="geometry" />
+        </mxCell>
+        <mxCell id="3Xt7BoFTHAEc3TVimibK-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;pokemon:list[pokemon]&lt;/div&gt;&lt;div&gt;level: int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="140" x="950" y="708" as="geometry" />
+        </mxCell>
+        <mxCell id="8hqm6LuVyeu4EQ2ZhqcQ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="generate_pokemon()" vertex="1">
+          <mxGeometry height="60" width="140" x="782" y="584" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
