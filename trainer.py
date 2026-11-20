@@ -1,4 +1,5 @@
 import random
+import pokemon as pk
 
 
 class Trainer:
@@ -12,11 +13,14 @@ class Trainer:
         pass
 
 class Player(Trainer):
-    def __init__(self, Name, PokeBalls:int = 3, PokeDollars:int = 500, Level:int = 2):
+    def __init__(self, Name, starter_pokemon,PokeBalls:int = 3, PokeDollars:int = 500, Level:int = 2):
         self.Name = Name
         self.PokeBalls = PokeBalls
         self.PokeDollars = PokeDollars
-        self.Level = Levels
+        self.Level = Level
+        self.Pokemon = [pk.Pokemon(starter_pokemon)]
+
+    
 
 
 class GenTrainer(Trainer):
@@ -32,17 +36,35 @@ class GenTrainer(Trainer):
         self.Name = names[random.randint(0, (len(names) -1))]
         self.Level = Level
 
-        self.Pokemon = generatePokemon()
+        self.Pokemon = self.generatePokemon()
     
     def generatePokemon(self):
-        pass
+        pokemon = []
+        for x in range(self.Level):
+
+            pokemon.append(pk.Pokemon())
+        
+        return pokemon
+
+    def __str__(self):
+        pokemon_list = "\n".join(
+            f"  - {pokemon}" for pokemon in self.Pokemon
+        )
+
+        return (
+            f"Trainer: {self.Name} (ID: {self.ID})\n"
+            f"Level: {self.Level}\n"
+            f"Pokémon ({len(self.Pokemon)}):\n"
+            f"{pokemon_list}"
+        )
 
     def __repr__(self):
-        return {
-            "ID": self.ID,
-            "Name": self.Name,
-            "Level": self.Level
-        }
+        return (
+            f"GenTrainer(ID={self.ID}, "
+            f"Name={self.Name!r}, "
+            f"Level={self.Level}, "
+            f"Pokemon={self.Pokemon!r})"
+        )
 
 demo = GenTrainer(3)
 print(demo.__repr__())
